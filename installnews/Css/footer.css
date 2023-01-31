@@ -1,0 +1,98 @@
+footer {
+  background: #251a1a;
+}
+
+.newsletter {
+  padding: 69px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newsletter span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.newsletter form {
+  display: flex;
+}
+
+.newsletter button {
+  background: #ff561c;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  padding: 14px 45px;
+}
+
+.newsletter button:hover {
+  background: #a53713;
+}
+
+.newsletter input {
+  padding: 14px 20px;
+  border: 1px solid transparent;
+}
+
+.newsletter input:focus-visible {
+  outline: none;
+  border: 1px solid #ff561c;
+}
+
+.separator {
+  height: 1px;
+  width: 90%;
+  background: #fff;
+  margin: auto;
+}
+
+.footerSection {
+  color: #fff;
+  padding: 69px 0;
+}
+.footerLogoSection {
+  max-width: 350px;
+}
+.footerLogoSection > img {
+  margin-bottom: 28px;
+}
+
+.reea {
+  display: flex;
+  align-items: center;
+  margin-top: 28px;
+}
+.reea img {
+  margin-left: 18px;
+}
+
+.links .col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.links span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.links a {
+  margin-bottom: 20px;
+}
+
+.links a:hover {
+  color: #ff561c;
+}
+
+.links svg {
+  margin-right: 10px;
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 14px;
+}

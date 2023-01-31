@@ -1,0 +1,77 @@
+footer {
+  margin-top: 200px;
+  background: #0033a0;
+  color: #fff;
+  border-radius: 80px 80px 0 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+footer .logo-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .logo-social .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+footer .first-row,
+.partner-row {
+  border-bottom: 1px solid #fff;
+}
+
+footer .first-row,
+footer .second-row,
+.partner-row {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+}
+
+footer .first-row .col,
+footer .second-row .col,
+.partner-row .col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  max-width: 200px;
+}
+
+footer .first-row .col .headline,
+footer .second-row .col .headline,
+.partner-row {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer .first-row .col a {
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+footer .second-row .col a {
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+}
+
+.terms {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.terms > div {
+  font-weight: 100;
+}
+
+.terms .link a {
+  font-weight: normal;
+  padding: 0 20px;
+}
